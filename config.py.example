@@ -1,0 +1,12 @@
+# Raindrop.io client authentication settings 
+# see README.md wher to get them
+
+CLIENT_ID = 'YOUR_CLIENT_ID'
+CLIENT_SECRET = 'YOUR_CLIENT_SECRET'
+
+AUTHORIZE_URL = 'https://raindrop.io/oauth/authorize'
+TOKEN_URL = 'https://raindrop.io/oauth/access_token'
+TOKEN_FILE = 'token_raindrop.json'
+
+# has to match the application settings on raindrop.io
+REDIRECT_URI = 'http://127.0.0.1:8000/callback'

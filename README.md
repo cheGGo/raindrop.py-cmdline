@@ -17,7 +17,7 @@ To integrate your application with Raindrop.io and utilize its API, you first ne
 
 5) IMPORTANT: your "Redirect URI" has to match your application oauth-backend which handles your oauth-client-requests.
 
-6) Save `CLIENT_ID` and `CLIENT_SECRET` to your `config.py`
+6) Save `CLIENT_ID` and `CLIENT_SECRET` to your `config.py` (copy from `config.py.example`)
 7) Save your Application Settings on Raindrop.io
 
 ### Use `get-auth-token.py` to get an access-token
